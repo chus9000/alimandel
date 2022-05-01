@@ -1,8 +1,8 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
 
-export const WIN_MESSAGES = ['¡Bien hecho!', '¡Bravo!', '¡Maravilloso!']
+export const WIN_MESSAGES = ['¡Bien hecho! Ni en Marathinez lo hacen mejor', '¡Muy bien! Mejor que Gloria en Pictdle', '¡Maravilloso! Mejor que el saque de banda']
 export const GAME_COPIED_MESSAGE = 'Copiado en el portapapeles'
-export const NOT_ENOUGH_LETTERS_MESSAGE = 'No hay letras suficientes'
+export const NOT_ENOUGH_LETTERS_MESSAGE = 'Pon alguna letra más, guapi'
 export const WORD_NOT_FOUND_MESSAGE = '¿Qué mierda es eso? Prueba una palabra de verdad, anda'
 export const HARD_MODE_ALERT_MESSAGE =
   '¡El modo dificil solo se puede activar al principio!'
