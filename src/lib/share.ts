@@ -22,6 +22,7 @@ export const shareStatus = (
     `${GAME_TITLE} ${solutionIndex} ${
       lost ? 'X' : guesses.length
     }/${MAX_CHALLENGES}${isHardMode ? '*' : ''}\n\n` +
+    "https://alimandel.netlify.app/\n\n" +
     generateEmojiGrid(
       solution,
       guesses,
