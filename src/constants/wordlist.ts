@@ -26,4 +26,10 @@ export const WORDS = [
   'anacb',
   'arena',
   'sanse',
+  'mixto',
+  'patro',
+  'rarra',
+  'tesis',
+  'chino',
+  'raton',
 ]
