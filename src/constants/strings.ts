@@ -10,11 +10,11 @@ export const HARD_MODE_DESCRIPTION =
   'Las pistas tienes que utilizarse en los siguientes intentos'
 export const HIGH_CONTRAST_MODE_DESCRIPTION = 'Para mejoras en la visión de colores'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
-  `La palabra era ${solution}`
+  'La palabra era ${solution}'
 export const WRONG_SPOT_MESSAGE = (guess: string, position: number) =>
-  `Tienes que usar ${guess} en la posición ${position}`
+  'Tienes que usar ${guess} en la posición ${position}'
 export const NOT_CONTAINED_MESSAGE = (letter: string) =>
-  `El intento tiene que tener la letra ${letter}`
+  'El intento tiene que tener la letra ${letter}'
 export const ENTER_TEXT = 'Enter'
 export const DELETE_TEXT = 'Borrar'
 export const STATISTICS_TITLE = 'Estadísticas'
