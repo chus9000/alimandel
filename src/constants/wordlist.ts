@@ -32,4 +32,12 @@ export const WORDS = [
   'tesis',
   'chino',
   'raton',
+  'china',
+  'plato',
+  'momia',
+  'fuego',
+  'carol',
+  'pablo',
+  'rimas',
+  'lorna',
 ]
