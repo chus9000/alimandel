@@ -1,16 +1,16 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
 
-export const WIN_MESSAGES = ['¡Bien hecho! Mejor que Gloria en el Pictdle', '¡Muy bien! Ni una zurda de oro lo hubiera hecho mejor', '¡Maravilloso! Como las ofertas y descuentos de Marathinez']
+export const WIN_MESSAGES = ['¡Bien hecho! Mejor que Gloria en el Pictdle', '¡Muy bien! Ni una zurda de oro lo hubiera hecho mejor', '¡Maravilloso! Como las ofertas y descuentos de Marathinez', 'Lo has clavado, como se clava un cuchillo en el techo', '¡Genial! Se te da mejor que a Jesús el tembleque']
 export const GAME_COPIED_MESSAGE = 'Copiado en el portapapeles'
 export const NOT_ENOUGH_LETTERS_MESSAGE = 'Pon alguna letra más, guapi'
-export const WORD_NOT_FOUND_MESSAGE = '¿Eso qué es? Prueba una palabra de verdad, anda'
+export const WORD_NOT_FOUND_MESSAGE = 'Solo valen palabras de verdad o Alimaña registered ®'
 export const HARD_MODE_ALERT_MESSAGE =
   '¡El modo dificil solo se puede activar al principio!'
 export const HARD_MODE_DESCRIPTION =
   'Las pistas tienes que utilizarse en los siguientes intentos'
 export const HIGH_CONTRAST_MODE_DESCRIPTION = 'Para mejoras en la visión de colores'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
-  `La palabra era ${solution}`
+  `Aciertas menos que Dani sacando de banda. La palabra era ${solution}`
 export const WRONG_SPOT_MESSAGE = (guess: string, position: number) =>
   `Tienes que usar ${guess} en la posición ${position}`
 export const NOT_CONTAINED_MESSAGE = (letter: string) =>
