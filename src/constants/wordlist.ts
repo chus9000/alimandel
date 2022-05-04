@@ -40,4 +40,7 @@ export const WORDS = [
   'pablo',
   'rimas',
   'lorna',
+  'raqui',
+  'lauri',
+  'party',
 ]
